@@ -1,14 +1,29 @@
-let max = parseInt(gets());
 
-for(let i = 0; i < max; i++){
-    let pars = gets().split(" ");
-    let X = parseInt(pars[0]);
-    let Y = parseInt(pars[1]);
 
-    if (Y != 0 && Y > 0){
-        let div = parseFloat(X / Y).toString(1);
-        console.log(div)
-    } else{
-        console.log("Divisão Impossivel!!!");
+console.log("Digite dois valores: ");
+let numb1 = parseInt(gets());
+let numb2 = parseInt(gets());
+
+let div = numb1 / numb2;
+
+console.log(div);
+
+
+
+/*
+let limit = parseInt(gets());
+
+for (let i = 0; i < limit; i++) {
+    
+    let line = gets().split(" ");
+    let X = parseInt(line[0]);
+    let Y = parseInt(line[1]);
+    
+    if (Y == 0) {
+        console.log("divisao impossivel");
+    } else {
+        let divisao = parseFloat(X / Y).toFixed(1);
+        console.log(divisao);
     }
 }
+*/
