@@ -28,7 +28,7 @@ for (let i = 0; i < limit; i++) {
     }
 }
 */
-
+// que merda é essa?
 const pessoa = {
     nome: 'Ana',
     idade: 21,
